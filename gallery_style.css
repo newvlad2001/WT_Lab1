@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.gallery_container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+td {
+    padding: 7px;
+}
+.gallery_img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery_cell {
+    background-color: #0d467c;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.gallery_cell:hover {
+    cursor: pointer;
+    background-color: #4082bf;
+    transition: .5s;
+}
+
+
+.up_butt {
+    position:fixed;
+    z-index: 999;
+    bottom:70px;
+    right:15px;
+    cursor:pointer;
+    background-color: #0d467c;
+    border-radius: 10px;
+}
+
+.up_butt:hover {
+    background-color: #4082bf;
+    transition: .5s;
+}

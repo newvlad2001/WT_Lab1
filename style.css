@@ -1,0 +1,114 @@
+@font-face {
+    font-family: D-DIN;
+    src: url("fonts/d-din.regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: DINAlternate;
+    src: url("fonts/DINAlternate-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 43px;
+    font-family: DINAlternate, sans-serif;
+    color: rgb(39, 187, 221);
+    text-align: right;
+}
+
+.over_butt_text {
+    font-size: 30px;
+    font-family: D-DIN, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.butt_container {
+    position: relative;
+}
+
+.download_butt {
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-family: D-DIN, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    border: none;
+    background: rgb(39, 187, 221);
+    width: 150px;
+    height: 50px;
+}
+
+
+.download_butt:hover {
+    background: white;
+    color: rgb(39, 187, 221);
+    transition: .5s;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container {
+    min-width: 800px;
+    width: 100%;
+    display: flex;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-left: 10%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about_site {
+    align-self: flex-start;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.img_container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.earth_container {
+    width: 70%;
+}
+
+.shark_container {
+    width: 30%;
+}
+
+.fish_container {
+    width: 40%;
+}
+
+.fish {
+    width: 100%;
+}
+
+.earth {
+    width: 100%;
+}
+
+.shark {
+    width: 100%;
+}

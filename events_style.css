@@ -1,0 +1,72 @@
+@font-face {
+    font-family: D-DIN;
+    src: url("fonts/d-din.regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.events_container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #0d467c;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.title {
+    font-size: 25px;
+    color: aqua;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.event_logo {
+    padding: 10px;
+}
+
+.event_logo_img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.event_text {
+    padding: 10px;
+    font-family: D-DIN, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.event:hover {
+    cursor: pointer;
+    background-color: #4082bf;
+    transition: .5s;
+}
+
+.up_butt {
+    position:fixed;
+    z-index: 999;
+    bottom:70px;
+    right:15px;
+    cursor:pointer;
+    background-color: #0d467c;
+    border-radius: 10px;
+}
+
+.up_butt:hover {
+    background-color: #4082bf;
+    transition: .5s;
+}
